@@ -22,7 +22,7 @@ int main()
         
         if(a*10 <= b)
         {
-            cout << (n+b)/10 + a << endl;
+            cout << (n+b)/10 - a << endl;
         }
         else
         {
