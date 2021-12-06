@@ -13,11 +13,11 @@ int main(){
 	
 	if(y >= w)
 	{
-	    p = 6-y;    
+	    p = 7-y;    
 	}
 	else
 	{
-	    p = 6-w;
+	    p = 7-w;
 	}
 
     switch(p)
@@ -40,7 +40,10 @@ int main(){
 		case 5:
 			cout << "5/6";
 			break;
-
+        case 6:
+			cout << "1/1";
+			break;
+        
 		default:
 			cout << "Not Possible";
 	}
